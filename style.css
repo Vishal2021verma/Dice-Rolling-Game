@@ -1,0 +1,41 @@
+body {
+  text-align:center;
+  margin:0px;
+  background-color: #4CA1A3;
+  color:lightgrey;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+h1 {
+  font-size: 75px;
+  margin:25px auto 10px auto;
+  padding:0px;
+  color:antiquewhite;
+  text-shadow:1px 1px 10px #3a3a3a;
+  font-family:'Sriracha', cursive;
+}
+.player-1 {
+  display:inline-block;
+  margin:25px auto 25px auto;
+  padding:0px 25px 0px 0px;
+}
+.player-2 {
+  display:inline-block;
+  margin:25px auto 25px auto;
+  padding: 0px 0px 0px 25px
+}
+button {
+  display: block;
+  margin:25px auto 50px auto;
+  border:none;
+  font-size: 30px;
+  padding:10px 20px;
+  font-family: 'Balsamiq Sans', cursive;
+  border-radius: 10px;
+
+}
+button:hover {
+  box-shadow: 1px 1px 10px 0px #3a3a3a;
+  background-color: antiquewhite;
+  font-weight: bold;
+}
