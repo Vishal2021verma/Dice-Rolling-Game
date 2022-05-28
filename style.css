@@ -1,7 +1,7 @@
 body {
   display:flex;
-  justify-content:center;
-  align-items:center;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin:0px;
   background-color: #4CA1A3;
@@ -41,4 +41,18 @@ button:hover {
   box-shadow: 1px 1px 10px 0px #3a3a3a;
   background-color: antiquewhite;
   font-weight: bold;
+}
+
+@media screen and (min-width: 480px) {
+  
+ .player-1{
+   display: block;
+   margin:25px auto 25px auto;
+   padding: 0px 0px 0px 25px
+ }
+ .player-2{
+   display: block;
+   margin:25px auto 25px auto;
+   padding: 0px 0px 0px 25px
+ }
 }
